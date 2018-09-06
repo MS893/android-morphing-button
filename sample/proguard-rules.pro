@@ -15,3 +15,6 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+# For Morphing button library
+-keep class com.dd.morphingbutton.** {*;}
